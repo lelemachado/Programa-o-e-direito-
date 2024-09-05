@@ -1,0 +1,49 @@
+1. Python
+Python é uma linguagem de programação de alto nível, interpretada, e com forte suporte para programação orientada a objetos e programação funcional. É conhecida por sua sintaxe simples e legibilidade, o que a torna ideal para iniciantes. Python é amplamente usada em ciência de dados, desenvolvimento web, automação e muito mais.
+
+Exemplo de código:
+```python
+# Python
+def hello_world():
+    print("Hello, World!")
+
+hello_world()
+```
+codigo:
+```python
+def hello_world():
+    print("Hello, World!")
+
+hello_world()
+```
+
+2. JavaScript
+JavaScript é uma linguagem de programação interpretada, comumente usada para o desenvolvimento web. Ela é executada principalmente no lado do cliente (navegadores), mas também pode ser usada no lado do servidor (Node.js). JavaScript é conhecido por sua capacidade de manipular o DOM e criar páginas web dinâmicas.
+
+Exemplo de código:
+```javascript
+// JavaScript
+function helloWorld() {
+    console.log("Hello, World!");
+}
+
+helloWorld();
+```
+
+3. Java
+Java é uma linguagem de programação compilada, fortemente tipada, e orientada a objetos. É usada em uma ampla gama de aplicações, desde desenvolvimento Android até sistemas empresariais. Java é conhecida por seu desempenho e portabilidade, já que o código Java pode ser executado em qualquer plataforma que tenha a JVM (Java Virtual Machine).
+
+Exemplo de código:
+```java
+// Java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+
+
+Conclusão
+Essas três linguagens são amplamente utilizadas, mas cada uma tem seus casos de uso mais adequados. Python é ótimo para scripts, automação e ciência de dados, JavaScript domina o desenvolvimento web, e Java é preferido em ambientes empresariais e desenvolvimento de aplicativos robustos.
