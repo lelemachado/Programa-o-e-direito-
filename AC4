@@ -1,0 +1,35 @@
+1- 
+def bubble_sort(arr):
+    n = len(arr)
+    # Passa por todos os elementos da lista
+    for i in range(n):
+        # Últimos i elementos já estão no lugar
+        for j in range(0, n-i-1):
+            # Troca se o elemento encontrado for maior que o próximo
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+# Exemplo de uso
+arr = [64, 34, 25, 12, 22, 11, 90]
+sorted_arr = bubble_sort(arr)
+print("Array ordenado:", sorted_arr)
+
+
+2-
+def imprime_vogais(texto):
+    vogais = "aeiouAEIOU"
+    # Variável para armazenar as vogais encontradas
+    vogais_encontradas = ""
+    
+    # Percorre cada caractere do texto
+    for char in texto:
+        if char in vogais:
+            vogais_encontradas += char
+    
+    return vogais_encontradas
+
+# Exemplo de uso
+texto = "Implementar algoritmos é interessante!"
+vogais = imprime_vogais(texto)
+print("Vogais encontradas:", vogais)
